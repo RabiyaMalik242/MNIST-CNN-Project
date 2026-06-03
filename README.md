@@ -131,7 +131,7 @@ pip install -r requirements.txt
 ```
 
 ## ▶️ Run Project
-1. Run Jupyter Notebook (Training)
+### 1. Run Jupyter Notebook (Training)
 jupyter notebook
 
 Open:
@@ -140,7 +140,7 @@ model.ipynb
 
 Run all cells to train and save the model.
 
-2. Run Streamlit App
+### 2. Run Streamlit App
 
 After training the model:
 
