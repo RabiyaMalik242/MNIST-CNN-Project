@@ -131,24 +131,24 @@ pip install -r requirements.txt
 ```
 
 ## ▶️ Run Project
-### 1. Run Jupyter Notebook (Training)
+**1. Run Jupyter Notebook (Training)**
 jupyter notebook
 
-Open:
+- Open:
 
-model.ipynb
+  model.ipynb
 
-Run all cells to train and save the model.
+- Run all cells to train and save the model.
 
-### 2. Run Streamlit App
+**2. Run Streamlit App**
 
-After training the model:
+- After training the model:
 
-streamlit run app.py
+  streamlit run app.py
 
-Then open in browser:
+- Then open in browser:
 
-http://localhost:8501
+  http://localhost:8501
 ## 🧾 Requirements
 
 Install dependencies using:
