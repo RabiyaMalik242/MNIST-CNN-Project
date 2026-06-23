@@ -122,48 +122,42 @@ CNN learns features hierarchically:
 
 ---
 
-## 📦 Installation
+## 📦 Installation and Setup
 
-Install required dependencies:
+**1. Clone the repository**
+```bash
+git clone https://github.com/RabiyaMalik242/MNIST-CNN-Project.git
+cd MNIST-CNN-Project
+```
 
+**2. (Recommended) Create a virtual environment**
+```bash
+python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+```
+
+**3. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-## ▶️ Run Project
-**1. Run Jupyter Notebook (Training)**
+---
+
+## ▶️ How to Run
+
+**Step 1 — Train the model (Jupyter Notebook)**
+```bash
 jupyter notebook
+```
+Open `mnist project.ipynb` and run all cells. This trains the CNN and saves the model file.
 
-- Open:
+**Step 2 — Launch the Streamlit App**
+```bash
+streamlit run app.py
+```
+Then open your browser at: `http://localhost:8501`
 
-  model.ipynb
-
-- Run all cells to train and save the model.
-
-**2. Run Streamlit App**
-
-- After training the model:
-
-  streamlit run app.py
-
-- Then open in browser:
-
-  http://localhost:8501
-## 🧾 Requirements
-
-Install dependencies using:
-
-tensorflow
-numpy
-pandas
-matplotlib
-seaborn
-opencv-python
-scikit-learn
-streamlit
-👨‍💻 Author
-
-MNIST CNN Project – Machine Learning Assignment
+> ⚠️ Make sure to complete Step 1 first — the app loads the saved model file.
 
 ## ⭐ Future Improvements
 Data augmentation for better generalization
@@ -173,17 +167,10 @@ Improve canvas drawing recognition accuracy
 
 ---
 
-✔ This is now a **complete final README (no missing sections)**  
-✔ Clean for GitHub  
-✔ Strong for viva/exam presentation  
-✔ Professional ML project format  
+👨‍💻 Author
 
----
-
-If you want next, I can help you:
-✔ make your GitHub look “top 1% project level” (badges + screenshots layout)  
-✔ or prepare viva Q&A from your exact CNN model  
-✔ or help you deploy Streamlit online (very impressive for marks) 🚀
+Rabiya Malik - BS Software Engineering
+MNIST CNN Project – Machine Learning Assignment
 
 
 
