@@ -159,6 +159,8 @@ Then open your browser at: `http://localhost:8501`
 
 > ⚠️ Make sure to complete Step 1 first — the app loads the saved model file.
 
+---
+
 ## ⭐ Future Improvements
 Data augmentation for better generalization
 Hyperparameter tuning for improved accuracy
