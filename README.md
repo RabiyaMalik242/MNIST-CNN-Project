@@ -149,7 +149,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-Open `mnist project.ipynb` and run all cells. This trains the CNN and saves the model file.
+Open `mnist_project.ipynb` and run all cells. This trains the CNN and saves the model file.
 
 **Step 2 — Launch the Streamlit App**
 ```bash
